@@ -17,7 +17,7 @@ class Footer extends React.Component {
 								rel="noopener noreferrer">
 								<img src={github} alt=""/>
 							</a>
-							<a
+							<a	className="icon"
 								href="https://www.linkedin.com/in/ibrahim-abushamma-890812184/"
 								target="_blank"
 								rel="noopener noreferrer">
@@ -25,7 +25,7 @@ class Footer extends React.Component {
 							</a>
 						</div>
 					</div>
-					<h5 className="pt-4">Ibrahim Abu-Shamma &copy; 2020</h5>
+					<h5 className="footer">Ibrahim Abu-Shamma &copy; 2020</h5>
 				</div>
 			</div>
 		);

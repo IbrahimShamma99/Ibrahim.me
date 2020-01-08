@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
 import WOW from "wowjs";
-
 export default class Background extends React.Component {
 	componentDidMount() {
 		new WOW.WOW().init();

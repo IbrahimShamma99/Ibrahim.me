@@ -57,9 +57,10 @@ class Navbar extends React.Component {
 				<nav
 					id="navbar"
 					className="navbar navbar-expand-lg navbar-light bg-light">
-					<div className="container">
+					<div className="container ">
 						<a
-							className="home-style navbar-brand"
+							className="home-style navbar-brand 
+							font-weight-bold"
 							onClick={() => {
 								window.scrollTo({
 									top: 0,

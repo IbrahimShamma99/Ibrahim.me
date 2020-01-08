@@ -90,13 +90,17 @@
     letter-spacing: 10px
 }
 
+.icon {
+    color: #fff;
+}
+
 .work-button {
     margin-top: 1rem;
-    padding: .2rem 2rem;
+    padding: 0.4rem 2rem;
     background-color: #f8f9fa;
     color: black;
-    border-radius: 2rem;
-    border: 1px #122444 solid;
+    border-radius: 0.5rem;
+    border: 1px #ffffff solid;
     outline: none;
     -moz-outline-style: none;
     font-size: 1.2rem;
@@ -314,6 +318,10 @@
     opacity: 0;
     transition: .5s ease;
     background-color: #f8f9fa;
+}
+
+.footer {
+    color: #FFF
 }
 
 .text {
