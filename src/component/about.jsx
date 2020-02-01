@@ -69,9 +69,9 @@ export default class About extends React.Component {
 						}>
 						<div className="progress mb-3">
 							<div
-								className="progress-bar bg-success"
+								className="progress-bar bg-danger"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 85 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								NodeJS
@@ -79,42 +79,23 @@ export default class About extends React.Component {
 						</div>
 						<div className="progress mb-3">
 							<div
-								className="progress-bar bg-info"
+								className="progress-bar bg-danger"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 75 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								ReactJS
 							</div>
 						</div>
+
 						<div className="progress mb-3">
 							<div
-								className="progress-bar bg-warning"
+								className="progress-bar bg-danger"
 								role="progressbar"
-								style={{ width: 90 + "%" }}
+								style={{ width: 85 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								Javascript
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 100 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Python
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-secondary"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Django
+								Express
 							</div>
 						</div>
 
@@ -125,13 +106,107 @@ export default class About extends React.Component {
 								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								Machine Learning
+								NestJS
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar bg-danger"
+								role="progressbar"
+								style={{ width: 75 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								MongoDB
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar bg-danger"
+								role="progressbar"
+								style={{ width: 60 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Redux
+							</div>
+						</div>
+
+
+						<div className="progress mb-3">
+							<div
+								className="progress-bar bg-warning"
+								role="progressbar"
+								style={{ width: 88 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Javascript
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar bg-warning"
+								role="progressbar"
+								style={{ width: 80 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								TypeScript
 							</div>
 						</div>
 
 						<div className="progress mb-3">
 							<div
 								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 90 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Python
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 75 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Django
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 60 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								GraphQL
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 60 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								BootStrap
+							</div>
+						</div>
+
+						<div className="progress mb-3">
+							<div
+								className="progress-bar bg-success"
+								role="progressbar"
+								style={{ width: 65 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Machine Learning
+							</div>
+						</div>
+
+						<div className="progress mb-3">
+							<div
+								className="progress-bar bg-success"
 								role="progressbar"
 								style={{ width: 60 + "%" }}
 								aria-valuemin="0"
@@ -143,17 +218,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar bg-success"
 								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								MongoDB
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-dark"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Linux
@@ -161,25 +226,14 @@ export default class About extends React.Component {
 						</div>
 						<div className="progress mb-3">
 							<div
-								className="progress-bar bg-danger"
+								className="progress-bar bg-success"
 								role="progressbar"
 								style={{ width: 60 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								Express
+								MYSQl
 							</div>
 						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-purple"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								BootStrap
-							</div>
-						</div>
-
 					</div>
 				</div>
 			</div>
