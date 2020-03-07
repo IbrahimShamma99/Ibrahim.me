@@ -144,7 +144,7 @@ export default class About extends React.Component {
 
 						<div className="progress mb-3">
 							<div
-								className="progress-bar fill-60-bar"
+								className="progress-bar bg-warning"
 								role="progressbar"
 								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
@@ -163,6 +163,29 @@ export default class About extends React.Component {
 								BootStrap
 							</div>
 						</div>
+
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 75 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								Software Design patterns
+							</div>
+						</div>
+
+					<div className="progress mb-3">
+						<div
+							className="progress-bar fill-60-bar"
+							role="progressbar"
+							style={{ width: 50 + "%" }}
+							aria-valuemin="0"
+							aria-valuemax="100">
+							Software Architecture
+						</div>
+					</div>
+
 
 						<div className="progress mb-3">
 							<div
