@@ -60,7 +60,7 @@ export default class About extends React.Component {
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
 						<h3>Web Developer</h3>
-          The detailed programmer,experienced working on teams to produce impactful leading-edge websites ,very passionate into translating people's needs into a machine code,developed the habit of learning by doing which taught me the ability to learn fast .</p>
+          The detailed programmer,experienced working on teams to produce impactful leading-edge websites ,very passionate into translating people's needs into a machine code,developed the habit of learning by doing which taught me the ability to learn fast.</p>
 					</div>
 					<div
 						className={
@@ -103,16 +103,6 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar bg-danger"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								NestJS
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-danger"
-								role="progressbar"
 								style={{ width: 75 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
@@ -135,7 +125,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar bg-warning"
 								role="progressbar"
-								style={{ width: 88 + "%" }}
+								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Javascript
@@ -145,7 +135,7 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar bg-warning"
 								role="progressbar"
-								style={{ width: 80 + "%" }}
+								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								TypeScript
@@ -156,32 +146,13 @@ export default class About extends React.Component {
 							<div
 								className="progress-bar fill-60-bar"
 								role="progressbar"
-								style={{ width: 90 + "%" }}
+								style={{ width: 70 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
 								Python
 							</div>
 						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 75 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Django
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								GraphQL
-							</div>
-						</div>
+
 						<div className="progress mb-3">
 							<div
 								className="progress-bar fill-60-bar"
@@ -224,16 +195,7 @@ export default class About extends React.Component {
 								Linux
 							</div>
 						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-success"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								MYSQl
-							</div>
-						</div>
+
 					</div>
 				</div>
 			</div>
