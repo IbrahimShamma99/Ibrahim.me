@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Skillset.css"
-
+import NodeLogo from '../../img/node.svg';
+import ReactLogo from "../../img/react.svg";
 
 const Skill = (props)=>(
     <div className="progress mb-2 ml-2">
@@ -11,7 +12,7 @@ const Skill = (props)=>(
     style={{ width: props.progress + "%"}}
     aria-valuemin="0"
     aria-valuemax="100">
-    {props.skill}
+    <div>{props.skill} <a><img src={props.logo}>{props.glph}</img></a></div>
     </div>
     </div>
 );
@@ -23,8 +24,8 @@ const skillset = (props)=>(
         <div class="row justify-content-md-center">
             <div class="col width:100%" align="center">
                 <h1 className="home-style navbar-brand font-weight-bold">Stack</h1>
-                <Skill styling="progress-bar bg-danger" skill="NodeJS" progress="85" />
-                <Skill styling="progress-bar bg-danger" skill="ReactJS" progress="75"/>
+                <Skill logo={NodeLogo} styling="progress-bar bg-danger" skill="NodeJS" progress="85" />
+                <Skill logo={ReactLogo} styling="progress-bar bg-danger" skill="ReactJS" progress="75"/>
                 <Skill styling="progress-bar bg-danger" skill="Express" progress="85"/>
                 <Skill styling="progress-bar bg-danger" skill="MongoDB" progress="80"/>
                 <Skill styling="progress-bar bg-danger" skill="Redux" progress="65"/>
