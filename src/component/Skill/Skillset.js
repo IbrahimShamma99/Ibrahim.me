@@ -18,7 +18,10 @@ const Skill = (props)=>(
 const skillset = (props)=>(
 
     <div class="container">
-        <div align="center">
+
+    <div class="row">
+
+        <div class="col" align="center">
             <h1 className="home-style navbar-brand font-weight-bold">Stack</h1>
             <Skill styling="progress-bar bg-danger" skill="NodeJS" progress="85" />
             <Skill styling="progress-bar bg-danger" skill="ReactJS" progress="75"/>
@@ -26,7 +29,8 @@ const skillset = (props)=>(
             <Skill styling="progress-bar bg-danger" skill="MongoDB" progress="80"/>
             <Skill styling="progress-bar bg-danger" skill="Redux" progress="65"/>
         </div>
-        <div align="center">
+
+        <div class="col" align="center">
             <h1 className="home-style navbar-brand 
             font-weight-bold">Languages</h1>
             <Skill styling="progress-bar bg-warning" skill="Javascript" progress="80"/>
@@ -35,27 +39,30 @@ const skillset = (props)=>(
             <Skill styling="progress-bar bg-warning" skill="C++" progress="60"/>
             <Skill styling="progress-bar bg-warning" skill="Rust" progress="50"/>
         </div>
-        <div align="center">
-            <h1 className="home-style navbar-brand 
-            font-weight-bold">UI</h1>
-            <Skill styling="progress-bar" skill="BootStrap" progress="80"/>
-            <Skill styling="progress-bar" skill="HTML" progress="75"/>
-            <Skill styling="progress-bar" skill="CSS" progress="70"/>
+
+        <div class="col" align="center">
+                <h1 className="home-style navbar-brand 
+                font-weight-bold">UI</h1>
+                <Skill styling="progress-bar" skill="BootStrap" progress="80"/>
+                <Skill styling="progress-bar" skill="HTML" progress="75"/>
+                <Skill styling="progress-bar" skill="CSS" progress="70"/>
+        </div>
         </div>
 
+        <div class="row">
+                <div class="col" align="center">
+                    <h1  className="home-style navbar-brand font-weight-bold">Programming concepts</h1>
+                    <Skill styling="progress-bar bg-info" skill="OOP" progress="80"/>
+                    <Skill styling="progress-bar bg-info" skill="Software Design patterns" progress="70"/>
+                    <Skill styling="progress-bar bg-info" skill="Software Architecture" progress="60"/>
+                </div>
     
-        <div align="center">
-            <h1  className="home-style navbar-brand font-weight-bold">Programming concepts</h1>
-            <Skill styling="progress-bar bg-info" skill="OOP" progress="80"/>
-            <Skill styling="progress-bar bg-info" skill="Software Design patterns" progress="70"/>
-            <Skill styling="progress-bar bg-info" skill="Software Architecture" progress="60"/>
-        </div>
-    
-        <div align="center">
-            <h1  className="home-style navbar-brand font-weight-bold">Other skills</h1>
-            <Skill styling="progress-bar bg-success" skill="Machine Learning" progress="65"/>
-            <Skill styling="progress-bar bg-success" skill="Docker" progress="60"/>
-            <Skill styling="progress-bar bg-success" skill="Linux" progress="70"/>
+                <div class="col" align="center">
+                    <h1  className="home-style navbar-brand font-weight-bold">Other skills</h1>
+                    <Skill styling="progress-bar bg-success" skill="Machine Learning" progress="65"/>
+                    <Skill styling="progress-bar bg-success" skill="Docker" progress="60"/>
+                    <Skill styling="progress-bar bg-success" skill="Linux" progress="70"/>
+                </div>
         </div>
     </div>
 )
