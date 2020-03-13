@@ -2,6 +2,7 @@ import React from 'react';
 import "./Skillset.css"
 import NodeLogo from '../../img/node.svg';
 import ReactLogo from "../../img/react.svg";
+import BootStrapLogo from "../../img/bootstrap.svg";
 
 const Skill = (props)=>(
     <div className="progress mb-2 ml-2">
@@ -43,7 +44,7 @@ const skillset = (props)=>(
             <div class="col" align="center">
                 <h1 className="home-style navbar-brand 
                     font-weight-bold">User interface</h1>
-                <Skill styling="progress-bar" skill="BootStrap" progress="80"/>
+                <Skill logo={BootStrapLogo} styling="progress-bar" skill="BootStrap" progress="80"/>
                 <Skill styling="progress-bar" skill="HTML" progress="75"/>
                 <Skill styling="progress-bar" skill="CSS" progress="70"/>
                 <Skill styling="progress-bar" skill="React Material Ui" progress="75"/>
