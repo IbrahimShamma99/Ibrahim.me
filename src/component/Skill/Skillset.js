@@ -1,8 +1,10 @@
 import React from 'react';
-
-
+import "./Skillset.css"
 const skillset = (props)=>(
     <div className="container">
+    
+    <form >
+        <h1>stack</h1>
     <div className="progress mb-3">
         <div
             className="progress-bar bg-danger"
@@ -56,7 +58,10 @@ const skillset = (props)=>(
         </div>
     </div>
 
+    </form>
 
+    <form >
+    <h1>Languages</h1>
     <div className="progress mb-3">
         <div
             className="progress-bar bg-warning"
@@ -88,7 +93,9 @@ const skillset = (props)=>(
             Python
         </div>
     </div>
-
+    </form>
+    <form>
+        <h1>UI</h1>
     <div className="progress mb-3">
         <div
             className="progress-bar fill-60-bar"
@@ -98,8 +105,33 @@ const skillset = (props)=>(
             aria-valuemax="100">
             BootStrap
         </div>
-    </div>
+        </div>
 
+        <div className="progress mb-3">
+        <div
+            className="progress-bar fill-60-bar"
+            role="progressbar"
+            style={{ width: 60 + "%" }}
+            aria-valuemin="0"
+            aria-valuemax="100">
+            HTML
+        </div>
+        </div>
+
+        <div className="progress mb-3">
+        <div
+            className="progress-bar fill-60-bar"
+            role="progressbar"
+            style={{ width: 60 + "%" }}
+            aria-valuemin="0"
+            aria-valuemax="100">
+            CSS
+        </div>
+        </div>
+
+
+
+        </form>
     <div className="progress mb-3">
         <div
             className="progress-bar fill-60-bar"
@@ -154,7 +186,6 @@ const skillset = (props)=>(
             Linux
         </div>
     </div>
-    </div>
-
+</div>
 )
 export default skillset;

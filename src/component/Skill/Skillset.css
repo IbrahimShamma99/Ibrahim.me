@@ -1,0 +1,10 @@
+form {
+    padding: 10px;
+    border-color: black;
+    border: 50px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: bold;
+}

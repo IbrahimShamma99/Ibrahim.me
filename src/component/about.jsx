@@ -5,7 +5,7 @@ import pen from "../img/pen.png";
 import browser from "../img/browser.png";
 import myImage from "../img/myImage.png";
 import PropTypes from "prop-types";
-import Skillset from './Skillset';
+import Skillset from './Skill/Skillset';
 
 export default class About extends React.Component {
 	render() {
