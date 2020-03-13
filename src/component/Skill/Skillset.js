@@ -1,64 +1,76 @@
 import React from 'react';
 import "./Skillset.css"
+
+
+const Set = (props) =>(    <form >
+    <h1 className="home-style navbar-brand 
+    font-weight-bold">stack</h1>
+<div className="progress mb-3">
+<div
+    className="progress-bar bg-danger"
+    role="progressbar"
+    style={{ width: 85 + "%" }}
+    aria-valuemin="0"
+    aria-valuemax="100">
+    NodeJS
+</div>
+</div>
+<div className="progress mb-3">
+<div
+    className="progress-bar bg-danger"
+    role="progressbar"
+    style={{ width: 75 + "%" }}
+    aria-valuemin="0"
+    aria-valuemax="100">
+    ReactJS
+</div>
+</div>
+
+<div className="progress mb-3">
+<div
+    className="progress-bar bg-danger"
+    role="progressbar"
+    style={{ width: 85 + "%" }}
+    aria-valuemin="0"
+    aria-valuemax="100">
+    Express
+</div>
+</div>
+
+<div className="progress mb-3">
+<div
+    className="progress-bar bg-danger"
+    role="progressbar"
+    style={{ width: 75 + "%" }}
+    aria-valuemin="0"
+    aria-valuemax="100">
+    MongoDB
+</div>
+</div>
+<div className="progress mb-3">
+<div
+    className="progress-bar bg-danger"
+    role="progressbar"
+    style={{ width: 60 + "%" }}
+    aria-valuemin="0"
+    aria-valuemax="100">
+    Redux
+</div>
+</div>
+
+</form>)
+
+
+
+
+
+
+
+
 const skillset = (props)=>(
     <div className="container">
     
-    <form >
-        <h1>stack</h1>
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-danger"
-            role="progressbar"
-            style={{ width: 85 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            NodeJS
-        </div>
-    </div>
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-danger"
-            role="progressbar"
-            style={{ width: 75 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            ReactJS
-        </div>
-    </div>
-
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-danger"
-            role="progressbar"
-            style={{ width: 85 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            Express
-        </div>
-    </div>
-
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-danger"
-            role="progressbar"
-            style={{ width: 75 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            MongoDB
-        </div>
-    </div>
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-danger"
-            role="progressbar"
-            style={{ width: 60 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            Redux
-        </div>
-    </div>
-
-    </form>
+    <Set/>
 
     <form >
     <h1>Languages</h1>
