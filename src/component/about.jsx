@@ -5,6 +5,7 @@ import pen from "../img/pen.png";
 import browser from "../img/browser.png";
 import myImage from "../img/myImage.png";
 import PropTypes from "prop-types";
+import Skillset from './Skillset';
 
 export default class About extends React.Component {
 	render() {
@@ -63,163 +64,13 @@ export default class About extends React.Component {
           The detailed programmer,experienced working on teams to produce impactful leading-edge websites ,very passionate into translating people's needs into a machine code,developed the habit of learning by doing which taught me the ability to learn fast.</p>
 					</div>
 					<div
-						className={
-							"col-12 col-sm-12 col-md-12 col-lg-6 " +
-							this.props.tada
-						}>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-danger"
-								role="progressbar"
-								style={{ width: 85 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								NodeJS
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-danger"
-								role="progressbar"
-								style={{ width: 75 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								ReactJS
-							</div>
-						</div>
-
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-danger"
-								role="progressbar"
-								style={{ width: 85 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Express
-							</div>
-						</div>
-
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-danger"
-								role="progressbar"
-								style={{ width: 75 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								MongoDB
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-danger"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Redux
-							</div>
-						</div>
-
-
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-warning"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Javascript
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-warning"
-								role="progressbar"
-								style={{ width: 70 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								TypeScript
-							</div>
-						</div>
-
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-warning"
-								role="progressbar"
-								style={{ width: 70 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Python
-							</div>
-						</div>
-
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								BootStrap
-							</div>
-						</div>
-
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 70 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Software Design patterns
-							</div>
-						</div>
-
-					<div className="progress mb-3">
-						<div
-							className="progress-bar fill-60-bar"
-							role="progressbar"
-							style={{ width: 50 + "%" }}
-							aria-valuemin="0"
-							aria-valuemax="100">
-							Software Architecture
-						</div>
+					className={
+						"col-12 col-sm-12 col-md-12 col-lg-6 " +
+						this.props.tada
+					}>
+					<Skillset/>
 					</div>
-
-
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-success"
-								role="progressbar"
-								style={{ width: 65 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Machine Learning
-							</div>
-						</div>
-
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-success"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Docker
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar bg-success"
-								role="progressbar"
-								style={{ width: 70 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								Linux
-							</div>
-						</div>
-
-					</div>
+				
 				</div>
 			</div>
 		);
