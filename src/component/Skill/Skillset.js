@@ -2,202 +2,62 @@ import React from 'react';
 import "./Skillset.css"
 
 
-const Set = (props) =>(    <form >
-    <h1 className="home-style navbar-brand 
-    font-weight-bold">stack</h1>
-<div className="progress mb-3">
-<div
-    className="progress-bar bg-danger"
+const Skill = (props)=>(
+    <div className="progress mb-3">
+    <div
+    className={props.styling}
     role="progressbar"
-    style={{ width: 85 + "%" }}
+    style={{ width: props.progress + "%" }}
     aria-valuemin="0"
     aria-valuemax="100">
-    NodeJS
-</div>
-</div>
-<div className="progress mb-3">
-<div
-    className="progress-bar bg-danger"
-    role="progressbar"
-    style={{ width: 75 + "%" }}
-    aria-valuemin="0"
-    aria-valuemax="100">
-    ReactJS
-</div>
-</div>
-
-<div className="progress mb-3">
-<div
-    className="progress-bar bg-danger"
-    role="progressbar"
-    style={{ width: 85 + "%" }}
-    aria-valuemin="0"
-    aria-valuemax="100">
-    Express
-</div>
-</div>
-
-<div className="progress mb-3">
-<div
-    className="progress-bar bg-danger"
-    role="progressbar"
-    style={{ width: 75 + "%" }}
-    aria-valuemin="0"
-    aria-valuemax="100">
-    MongoDB
-</div>
-</div>
-<div className="progress mb-3">
-<div
-    className="progress-bar bg-danger"
-    role="progressbar"
-    style={{ width: 60 + "%" }}
-    aria-valuemin="0"
-    aria-valuemax="100">
-    Redux
-</div>
-</div>
-
-</form>)
-
-
-
-
-
-
-
+    {props.skill}
+    </div>
+    </div>
+);
 
 const skillset = (props)=>(
     <div className="container">
     
-    <Set/>
-
     <form >
-    <h1>Languages</h1>
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-warning"
-            role="progressbar"
-            style={{ width: 80 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            Javascript
-        </div>
-    </div>
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-warning"
-            role="progressbar"
-            style={{ width: 70 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            TypeScript
-        </div>
-    </div>
-
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-warning"
-            role="progressbar"
-            style={{ width: 70 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            Python
-        </div>
-    </div>
+        <h1 className="home-style navbar-brand 
+        font-weight-bold">Stack</h1>
+        <Skill styling="progress-bar bg-danger" skill="NodeJS" progress="85" />
+        <Skill styling="progress-bar bg-danger" skill="ReactJS" progress="75"/>
+        <Skill styling="progress-bar bg-danger" skill="Express" progress="85"/>
+        <Skill styling="progress-bar bg-danger" skill="MongoDB" progress="80"/>
+        <Skill styling="progress-bar bg-danger" skill="Redux" progress="65"/>
     </form>
+
     <form>
-        <h1>UI</h1>
-    <div className="progress mb-3">
-        <div
-            className="progress-bar fill-60-bar"
-            role="progressbar"
-            style={{ width: 60 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            BootStrap
-        </div>
-        </div>
+        <h1 className="home-style navbar-brand 
+        font-weight-bold">Languages</h1>
+        <Skill styling="progress-bar bg-warning" skill="Javascript" progress="80"/>
+        <Skill styling="progress-bar bg-warning" skill="Typescript" progress="70"/>
+        <Skill styling="progress-bar bg-warning" skill="Python" progress="75"/>
+    </form>
 
-        <div className="progress mb-3">
-        <div
-            className="progress-bar fill-60-bar"
-            role="progressbar"
-            style={{ width: 60 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            HTML
-        </div>
-        </div>
+    <form>
+        <h1 className="home-style navbar-brand 
+        font-weight-bold">UI</h1>
+        <Skill styling="progress-bar bg-info" skill="BootStrap" progress="80"/>
+        <Skill styling="progress-bar bg-info" skill="HTML" progress="75"/>
+        <Skill styling="progress-bar bg-info" skill="CSS" progress="70"/>
+    </form>
 
-        <div className="progress mb-3">
-        <div
-            className="progress-bar fill-60-bar"
-            role="progressbar"
-            style={{ width: 60 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            CSS
-        </div>
-        </div>
+    <form>
+        <h1  className="home-style navbar-brand 
+        font-weight-bold">Programming concepts</h1>
+        <Skill styling="progress-bar bg-info" skill="OOP" progress="80"/>
+        <Skill styling="progress-bar bg-info" skill="Software Design patterns" progress="70"/>
+        <Skill styling="progress-bar bg-info" skill="Software Architecture" progress="60"/>
+    </form>
 
-
-
-        </form>
-    <div className="progress mb-3">
-        <div
-            className="progress-bar fill-60-bar"
-            role="progressbar"
-            style={{ width: 70 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            Software Design patterns
-        </div>
-    </div>
-
-<div className="progress mb-3">
-    <div
-        className="progress-bar fill-60-bar"
-        role="progressbar"
-        style={{ width: 50 + "%" }}
-        aria-valuemin="0"
-        aria-valuemax="100">
-        Software Architecture
-    </div>
-</div>
-
-
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-success"
-            role="progressbar"
-            style={{ width: 65 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            Machine Learning
-        </div>
-    </div>
-
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-success"
-            role="progressbar"
-            style={{ width: 60 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            Docker
-        </div>
-    </div>
-    <div className="progress mb-3">
-        <div
-            className="progress-bar bg-success"
-            role="progressbar"
-            style={{ width: 70 + "%" }}
-            aria-valuemin="0"
-            aria-valuemax="100">
-            Linux
-        </div>
-    </div>
+    <form>
+        <h1  className="home-style navbar-brand font-weight-bold">Other skills</h1>
+        <Skill styling="progress-bar bg-success" skill="Machine Learning" progress="65"/>
+        <Skill styling="progress-bar bg-success" skill="Docker" progress="60"/>
+        <Skill styling="progress-bar bg-success" skill="Linux" progress="70"/>
+    </form>
 </div>
 )
 export default skillset;
