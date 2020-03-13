@@ -17,10 +17,7 @@ export default class About extends React.Component {
 
 		<Brief fadeIn={this.props.fadeIn} />
 		<div
-		className={
-			"col-12 col-sm-12 col-md-12 col-lg-6 " +
-			this.props.tada
-		}>
+		className={this.props.tada}>
 		<Skillset/>
 		</div>
 
