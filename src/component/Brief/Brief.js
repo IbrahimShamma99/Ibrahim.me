@@ -2,8 +2,8 @@ import React from 'react';
 import myImage from "../../img/myImage.png";
 
 const brief = (props)=>(
-    <div className="row" style={{ marginTop: 7 + "rem" }}>
-    <div className="col-12 hidden">
+    <div className="row" style={{ marginTop: 1 + "rem" }}>
+    <div className="col-15">
         <img
             className={"img-fluid " + props.fadeIn}
             src={myImage}

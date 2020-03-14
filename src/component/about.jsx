@@ -2,7 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import Skillset from './Skill/Skillset';
 import Attributes from './Attributes/Attributes';
-import Brief from './Brief/Brief'
+import Brief from './Brief/Brief';
+
 export default class About extends React.Component {
 	render() {
 		return (
@@ -20,7 +21,7 @@ export default class About extends React.Component {
 			</div>	
 		);
 	}
-}
+};
 
 About.propTypes = {
 	bounceLeft: PropTypes.string,

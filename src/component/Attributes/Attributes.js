@@ -5,7 +5,7 @@ import pen from "../../img/pen.png";
 import browser from "../../img/browser.png";
 
 const attributes = (props)=>(
-    <div className="row mt-5">
+    <div className="row mt-4">
     <div
         className={
             "col-6 col-sm-6 col-md-3 " + props.fadeInLeft
