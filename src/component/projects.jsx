@@ -18,7 +18,7 @@ export default class Projects extends React.Component {
 							className={"text-center " + this.props.fadeInRight}>
 							Projects
 						</h1>
-						<div className="row">
+						<div className="row my-5">
 							<div
 								className={
 									"testbg col-12 col-sm-12 col-md-4 " +
@@ -68,7 +68,7 @@ export default class Projects extends React.Component {
 													"gallery-card"
 												);
 												var marineModal = document.getElementById(
-													"pics"
+													"picsbg"
 												);
 												modalBG.style.display = "block";
 												marineModal.style.display =
@@ -79,9 +79,8 @@ export default class Projects extends React.Component {
 									</div>
 								</div>
 							</div>
-							</div>
-							<div className="row">
 
+							
 							<div
 								className={
 									"aguabg col-12 col-sm-12 col-md-4 " +
@@ -189,7 +188,7 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 
-					<div id="pics" className="modal-card">
+					<div id="picsbg" className="modal-card">
 						<div className="visual">
 							<img src={PicsApp} alt=""/>
 						</div>
@@ -205,6 +204,7 @@ export default class Projects extends React.Component {
 									</li>
 								</ul>
 							</div>
+							
 							<div className="modal-bottom">
 								<p
 									className="close-icon"
@@ -219,7 +219,7 @@ export default class Projects extends React.Component {
 											"gallery-card"
 										);
 										var marineModal = document.getElementById(
-											"pics"
+											"picsbg"
 										);
 										modalBG.style.display = "none";
 										marineModal.style.display = "none";
