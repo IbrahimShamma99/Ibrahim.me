@@ -120,7 +120,7 @@ export default class Projects extends React.Component {
 							}>
 							<div className="overlay">
 								<div className="text">
-									<h2>To Do List</h2>
+									<h2>Burger builder</h2>
 								</div>
 								<div>
 									<button
