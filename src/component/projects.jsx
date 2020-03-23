@@ -5,8 +5,9 @@ import BlogPost from "../img/BlogPost.png";
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
 
-export default class Projects extends React.Component {
+import Project from './project';
 
+export default class Projects extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
@@ -18,35 +19,7 @@ export default class Projects extends React.Component {
 							Projects
 						</h1>
 						<div className="row my-5">
-							<div
-								className={
-									"testbg col-12 col-sm-12 col-md-4 " +
-									this.props.fadeIn
-								}>
-								<div className="overlay">
-									<div className="text">
-										<h2>Avicenna</h2>
-									</div>
-									<div>
-										<button
-											id="vmarine-button"
-											className="project-button"
-											onClick={() => {
-												var modalBG = document.getElementById(
-													"gallery-card"
-												);
-												var marineModal = document.getElementById(
-													"vmarine"
-												);
-												modalBG.style.display = "block";
-												marineModal.style.display =
-													"block";
-											}}>
-											Learn More
-										</button>
-									</div>
-								</div>
-							</div>
+						<Project name="Avicenna" fadeIn={this.props.fadeIn}/>
 							<div
 								className={
 									"aguabg col-12 col-sm-12 col-md-4 " +
