@@ -1,10 +1,11 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import Avicenna from "../img/avicenna.png";
 import BlogPost from "../img/BlogPost.png";
 import PicsApp from "../img/PicsApp.png";
-
 import todo from "../img/todolist.png";
-import PropTypes from "prop-types";
+import BurgerApp from "../img/burgerbuilder.png";
 
 export default class Projects extends React.Component {
 
@@ -110,6 +111,38 @@ export default class Projects extends React.Component {
 									</div>
 								</div>
 							</div>
+						
+
+							<div
+							className={
+								"burgerbg col-12 col-sm-12 col-md-4 " +
+								this.props.fadeIn
+							}>
+							<div className="overlay">
+								<div className="text">
+									<h2>To Do List</h2>
+								</div>
+								<div>
+									<button
+										id="todo-button"
+										className="project-button"
+										onClick={() => {
+											var modalBG = document.getElementById(
+												"gallery-card"
+											);
+											var todoModal = document.getElementById(
+												"burger"
+											);
+											modalBG.style.display = "block";
+											todoModal.style.display =
+												"block";
+										}}>
+										Learn More
+									</button>
+								</div>
+							</div>
+						</div>
+
 							<div
 								className={
 									"todobg col-12 col-sm-12 col-md-4 " +
@@ -178,6 +211,46 @@ export default class Projects extends React.Component {
 										);
 										var marineModal = document.getElementById(
 											"vmarine"
+										);
+										modalBG.style.display = "none";
+										marineModal.style.display = "none";
+									}}>
+									&#10005;
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div id="burger" className="modal-card">
+						<div className="visual">
+							<img src={BurgerApp} alt=""/>
+						</div>
+						<div className="modal-info">
+							<h2>Burger builder</h2>
+							<div className="modal-description">
+								<ul>
+									<li>
+										Burger builder is an react app built with 
+										Redux & Bootstrap 
+									</li>
+								</ul>
+							</div>
+							<div className="modal-bottom">
+								<p
+									className="close-icon"
+									style={{
+										textAlign: "right",
+										fontWeight: 900,
+										fontSize: 2 + "rem",
+										cursor: "pointer"
+									}}
+									onClick={() => {
+										var modalBG = document.getElementById(
+											"gallery-card"
+										);
+										var marineModal = document.getElementById(
+											"burger"
 										);
 										modalBG.style.display = "none";
 										marineModal.style.display = "none";

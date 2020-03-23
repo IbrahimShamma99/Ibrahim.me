@@ -189,6 +189,14 @@
     background-size: cover;
 }
 
+.burgerbg {
+    background-image: url("../img/burgerbuilder.png");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .todobg {
     background-image: url("../img/todolist.png");
     height: 400px;
@@ -364,6 +372,7 @@
 }
 
 .aguabg:hover .overlay,
+.burgerbg:hover .overlay,
 .testbg:hover .overlay,
 .picsbg:hover .overlay,
 .todobg:hover .overlay {
