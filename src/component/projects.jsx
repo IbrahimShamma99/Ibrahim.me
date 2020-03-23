@@ -1,13 +1,13 @@
 import React from "react";
 import Avicenna from "../img/avicenna.png";
 import BlogPost from "../img/BlogPost.png";
+import PicsApp from "../img/PicsApp.png";
 
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
 
-import Project from './project';
-
 export default class Projects extends React.Component {
+
 	render() {
 		return (
 			<React.Fragment>
@@ -19,7 +19,68 @@ export default class Projects extends React.Component {
 							Projects
 						</h1>
 						<div className="row my-5">
-						<Project name="Avicenna" fadeIn={this.props.fadeIn}/>
+							<div
+								className={
+									"testbg col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+								<div className="overlay">
+									<div className="text">
+										<h2>Avicenna</h2>
+									</div>
+									<div>
+										<button
+											id="vmarine-button"
+											className="project-button"
+											onClick={() => {
+												var modalBG = document.getElementById(
+													"gallery-card"
+												);
+												var marineModal = document.getElementById(
+													"vmarine"
+												);
+												modalBG.style.display = "block";
+												marineModal.style.display =
+													"block";
+											}}>
+											Learn More
+										</button>
+									</div>
+								</div>
+							</div>
+
+
+							<div
+								className={
+									"picsbg col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+								<div className="overlay">
+									<div className="text">
+										<h2>PicsApp</h2>
+									</div>
+									<div>
+										<button
+											id="vmarine-button"
+											className="project-button"
+											onClick={() => {
+												var modalBG = document.getElementById(
+													"gallery-card"
+												);
+												var marineModal = document.getElementById(
+													"pics"
+												);
+												modalBG.style.display = "block";
+												marineModal.style.display =
+													"block";
+											}}>
+											Learn More
+										</button>
+									</div>
+								</div>
+							</div>
+
+							
 							<div
 								className={
 									"aguabg col-12 col-sm-12 col-md-4 " +
@@ -127,6 +188,47 @@ export default class Projects extends React.Component {
 						</div>
 					</div>
 
+					<div id="pics" className="modal-card">
+						<div className="visual">
+							<img src={PicsApp} alt=""/>
+						</div>
+						<div className="modal-info">
+							<h2>PicsApp</h2>
+							<div className="modal-description">
+								<ul>
+									<li>
+										PicsApp Niggas
+									</li>
+									<li>
+									Designed with HTML5, CSS3, ReactJS and NodeJS.
+									</li>
+								</ul>
+							</div>
+							<div className="modal-bottom">
+								<p
+									className="close-icon"
+									style={{
+										textAlign: "right",
+										fontWeight: 900,
+										fontSize: 2 + "rem",
+										cursor: "pointer"
+									}}
+									onClick={() => {
+										var modalBG = document.getElementById(
+											"gallery-card"
+										);
+										var marineModal = document.getElementById(
+											"pics"
+										);
+										modalBG.style.display = "none";
+										marineModal.style.display = "none";
+									}}>
+									&#10005;
+								</p>
+							</div>
+						</div>
+					</div>
+
 					<div id="agualuz" className="modal-card">
 						<div className="visual">
 							<img src={BlogPost} alt=""/>
@@ -146,10 +248,6 @@ export default class Projects extends React.Component {
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a
-									href="#"
-									target="_blank">
-								</a>
 								<p
 									className="close-icon"
 									style={{
@@ -192,8 +290,6 @@ export default class Projects extends React.Component {
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a href="#" target="_blank">
-								</a>
 								<p
 									className="close-icon"
 									style={{
