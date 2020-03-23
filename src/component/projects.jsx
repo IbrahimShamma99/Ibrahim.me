@@ -130,7 +130,6 @@ export default class Projects extends React.Component {
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<h4>Comming Soon!</h4>
 								<p
 									className="close-icon"
 									style={{
@@ -177,7 +176,6 @@ export default class Projects extends React.Component {
 								<a
 									href="#"
 									target="_blank">
-									<h3>Coming Soon!</h3>
 								</a>
 								<p
 									className="close-icon"
@@ -222,7 +220,6 @@ export default class Projects extends React.Component {
 							</div>
 							<div className="modal-bottom">
 								<a href="#" target="_blank">
-									<h3>Coming Soon</h3>
 								</a>
 								<p
 									className="close-icon"
