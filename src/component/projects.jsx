@@ -18,7 +18,7 @@ export default class Projects extends React.Component {
 							className={"text-center " + this.props.fadeInRight}>
 							Projects
 						</h1>
-						<div className="row my-5">
+						<div className="row">
 							<div
 								className={
 									"testbg col-12 col-sm-12 col-md-4 " +
@@ -79,8 +79,9 @@ export default class Projects extends React.Component {
 									</div>
 								</div>
 							</div>
+							</div>
+							<div className="row">
 
-							
 							<div
 								className={
 									"aguabg col-12 col-sm-12 col-md-4 " +
