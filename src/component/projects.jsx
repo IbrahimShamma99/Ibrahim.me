@@ -350,11 +350,11 @@ export default class Projects extends React.Component {
 							<img src={todo} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>To-Do List</h2>
+							<h2>Todo App</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										A to-do list to keep track of goals.
+										A to-do list close to google keep
 									</li>
 									<li>
 										Developed with HTML5, CSS3, Bootstrap,
