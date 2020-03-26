@@ -41,8 +41,7 @@ export default class Projects extends React.Component {
 													"vmarine"
 												);
 												modalBG.style.display = "block";
-												marineModal.style.display =
-													"block";
+												marineModal.style.display =	"block";
 											}}>
 											Learn More
 										</button>
