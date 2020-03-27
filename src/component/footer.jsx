@@ -3,7 +3,7 @@ import React from "react";
 import github from "../img/github.png";
 import linkedin from "../img/linkedin.png";
 import dev from "../img/dev-brands.png"
-
+import twitter from '../img/twitter-square-brands-3.svg';
 class Footer extends React.Component {
 	render() {
 		return (
@@ -11,6 +11,13 @@ class Footer extends React.Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-12 col-sm-12 col-md-8 mx-auto">
+						
+							<a	className="icon"
+							href="https://twitter.com/ibrahimbon5"
+							target="_blank"
+							rel="noopener noreferrer">
+							<img src={twitter} alt=""/>
+							</a>
 							<a
 								className="px-3"
 								href="https://github.com/ibrahimshamma99"
@@ -30,7 +37,6 @@ class Footer extends React.Component {
 							rel="noopener noreferrer">
 							<img src={dev} alt=""/>
 						</a>
-
 						</div>
 					</div>
 					<h5 className="footer">Ibrahim Abu-Shamma &copy; 2020</h5>
