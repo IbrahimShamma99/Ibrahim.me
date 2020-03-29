@@ -19,15 +19,15 @@ import CppLogo from '../../img/cpp.svg';
 
 const Skill = (props)=>(
     <div className="progress mb-2 ml-2">
-    <div
-    class='mw-100'
-    className={props.styling}
-    role="progressbar"
-    style={{ width: props.progress + "%"}}
-    aria-valuemin="0"
-    aria-valuemax="100">
-    <div>{props.skill} <a><img src={props.logo}>{props.glph}</img></a></div>
-    </div>
+        <div
+            class='mw-100'
+            className={props.styling}
+            role="progressbar"
+            style={{ width: props.progress + "%"}}
+            aria-valuemin="0"
+            aria-valuemax="100">
+            <div>{props.skill} <a><img src={props.logo}>{props.glph}</img></a></div>
+        </div>
     </div>
 );
 

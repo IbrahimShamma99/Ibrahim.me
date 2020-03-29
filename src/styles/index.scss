@@ -173,6 +173,14 @@
     background-size: cover;
 }
 
+.covid {
+    background-image: url("../img//covid.png");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .picsbg {
     background-image: url("../img/PicsApp.png");
     height: 400px;
@@ -374,6 +382,7 @@
 .aguabg:hover .overlay,
 .burgerbg:hover .overlay,
 .testbg:hover .overlay,
+.covid:hover .overlay,
 .picsbg:hover .overlay,
 .todobg:hover .overlay {
     opacity: 1;

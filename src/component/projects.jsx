@@ -6,6 +6,8 @@ import BlogPost from "../img/BlogPost.png";
 import PicsApp from "../img/PicsApp.png";
 import todo from "../img/todolist.png";
 import BurgerApp from "../img/burgerbuilder.png";
+import CovidApp from '../img/covid.png'
+
 
 export default class Projects extends React.Component {
 
@@ -81,6 +83,37 @@ export default class Projects extends React.Component {
 							</div>
 
 							
+							<div
+								className={
+									"covid col-12 col-sm-12 col-md-4 " +
+									this.props.fadeIn
+								}>
+								<div className="overlay">
+									<div className="text">
+										<h2>Covid map</h2>
+									</div>
+									<div>
+										<button
+											id="vmarine-button"
+											className="project-button"
+											onClick={() => {
+												var modalBG = document.getElementById(
+													"gallery-card"
+												);
+												var marineModal = document.getElementById(
+													"covid"
+												);
+												modalBG.style.display = "block";
+												marineModal.style.display =	"block";
+											}}>
+											Learn More
+										</button>
+									</div>
+								</div>
+							</div>
+
+
+
 							<div
 								className={
 									"aguabg col-12 col-sm-12 col-md-4 " +
@@ -221,6 +254,50 @@ export default class Projects extends React.Component {
 					</div>
 
 
+
+					<div id="covid" className="modal-card">
+						<div className="visual">
+							<img src={CovidApp} alt=""/>
+						</div>
+						<div className="modal-info">
+							<h2>Covid map</h2>
+							<div className="modal-description">
+								<ul>
+									<li>
+										Covid map to track COVID stats
+									</li>
+									<li>
+									Designed with ReactJS & Redux
+									</li>
+								</ul>
+							</div>
+							<div className="modal-bottom">
+								<p
+									className="close-icon"
+									style={{
+										textAlign: "right",
+										fontWeight: 900,
+										fontSize: 2 + "rem",
+										cursor: "pointer"
+									}}
+									onClick={() => {
+										var modalBG = document.getElementById(
+											"gallery-card"
+										);
+										var marineModal = document.getElementById(
+											"covid"
+										);
+										modalBG.style.display = "none";
+										marineModal.style.display = "none";
+									}}>
+									&#10005;
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+
 					<div id="burger" className="modal-card">
 						<div className="visual">
 							<img src={BurgerApp} alt=""/>
@@ -269,7 +346,7 @@ export default class Projects extends React.Component {
 							<div className="modal-description">
 								<ul>
 									<li>
-										PicsApp Niggas
+										PicsApp
 									</li>
 									<li>
 									Designed with HTML5, CSS3, ReactJS and NodeJS.
